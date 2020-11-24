@@ -3,10 +3,155 @@ guid: ce81810d3458de847adf8ed16c534487
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extrude_14Mat
+    second: {fileID: 2100000, guid: e5a2bb8706ece864b867a9a291e0cbaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlaneMat
+    second: {fileID: 2100000, guid: a3af22ac2d7d2084bb953feb05503d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane_5Mat
+    second: {fileID: 2100000, guid: bc51da295c861f64e831002c9fb26954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sweep_2Mat
+    second: {fileID: 2100000, guid: 63937d937cbd9904eb9c0639942ab0a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WineGlass0_3Mat
+    second: {fileID: 2100000, guid: 674dd9025b77f334dacf42b8fe2fb9f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ashtrayMat
+    second: {fileID: 2100000, guid: fc169b44cd826ae4691cb46c9f0fe025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle2Mat
+    second: {fileID: 2100000, guid: 410c0dfe44ebd984d8862c331f165603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle3_1Mat
+    second: {fileID: 2100000, guid: ed9b9a1f14a69474188c297a70104d84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_1_1Mat
+    second: {fileID: 2100000, guid: 5c839e79aa1cfc84798665a51f511485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_4Mat
+    second: {fileID: 2100000, guid: 150917921fd25494986c83d931e56ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_5Mat
+    second: {fileID: 2100000, guid: c6aa7382f8146eb4e8cb494a3b526047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_6Mat
+    second: {fileID: 2100000, guid: 961f6dbe53c5637459d39fe0ffe65df7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_7_1Mat
+    second: {fileID: 2100000, guid: 7d2486ae8fbc19741954b6336af6b807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_8_1Mat
+    second: {fileID: 2100000, guid: db901102376d2bc458c4fa1f1c1286d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottle_9Mat
+    second: {fileID: 2100000, guid: 529c74c0c75f2664c894c218f91b8d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chair_1Mat
+    second: {fileID: 2100000, guid: 0adc9efede1e80e40bc7ed75487cf790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chair_2Mat
+    second: {fileID: 2100000, guid: 1a85013a6d0e1e643b8f6769e79c491b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chair_3Mat
+    second: {fileID: 2100000, guid: 5960f5a002324324e95d5ba2c673589c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cig_1Mat
+    second: {fileID: 2100000, guid: 69a48b74393d52142b124a2391952dfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: curve_wall_1Mat
+    second: {fileID: 2100000, guid: 589c850c52b571e4b833ae7ca696afab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fag_pack_1_1Mat
+    second: {fileID: 2100000, guid: 9cc93d78ea03c8e4bb93bbe78c375966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fag_pack_2_1Mat
+    second: {fileID: 2100000, guid: c70257be881ed6148bd1be6048ac7f6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampMat
+    second: {fileID: 2100000, guid: 9f28a198842d2554a9c76feb13161f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamp_detailMat
+    second: {fileID: 2100000, guid: 45552b048e78b9441b07ab08a07c9ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sign_1Mat
+    second: {fileID: 2100000, guid: 60d17753214e8f546a6a6a8359f4b75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smokeMat
+    second: {fileID: 2100000, guid: f44abdd2eea8531438ea16ef2b08eabd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stand_1Mat
+    second: {fileID: 2100000, guid: 63b73bb6dda57464c884d42c593a8265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_1_1Mat
+    second: {fileID: 2100000, guid: 809f32a37b641e64d8e209a218cf0a08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_3_1Mat
+    second: {fileID: 2100000, guid: 49a9c002c3fee004db56478ebeb49ff0, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
     materialLocation: 1
   animations:
