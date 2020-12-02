@@ -4,29 +4,25 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    // TV prop references
-    public GameObject canvasTV;
-    private bool isTVOn = false; // switches the canvas on and off
-
     // Big Daddy prop references
     public GameObject canvasBigDaddy;
-    private bool isBigDaddyOn = false;
+    public bool isBigDaddyOn = false;
 
     // Plasmid Stand prop references
     public GameObject canvasPlasmidStand;
-    private bool isPlasmidStandOn = false;
+    public bool isPlasmidStandOn = false;
 
     // Voice Recorder prop references
     public GameObject canvasVoiceRecorder;
-    private bool isVoiceRecorderOn = false;
+    public bool isVoiceRecorderOn = false;
 
     // Newpaper Stand prop references
     public GameObject canvasNewspaper;
-    private bool isNewspaperOn = false;
+    public bool isNewspaperOn = false;
 
     // Boss Character references
     public GameObject canvasBoss;
-    private bool isBossOn = false;
+    public bool isBossOn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,24 +36,11 @@ public class UIManager : MonoBehaviour
         
     }
 
-    public void WallTV()
-    {
-        if (isTVOn == false)
-        {
-            canvasTV.SetActive(true); // shows the button help text
-            isTVOn = true; // switches the bool
-        }
-        else if (isTVOn == true)
-        {
-            canvasTV.SetActive(false); // hides the button help text
-            isTVOn = false;
-        }
-    }
-
     public void BigDaddy()
     {
         if (isBigDaddyOn == false)
         {
+            HideOtherText();
             canvasBigDaddy.SetActive(true); // shows the button help text
             isBigDaddyOn = true; // switches the bool
         }
@@ -72,6 +55,7 @@ public class UIManager : MonoBehaviour
     {
         if (isPlasmidStandOn == false)
         {
+            HideOtherText();
             canvasPlasmidStand.SetActive(true); // shows the button help text
             isPlasmidStandOn = true; // switches the bool
         }
@@ -86,6 +70,7 @@ public class UIManager : MonoBehaviour
     {
         if (isVoiceRecorderOn == false)
         {
+            HideOtherText();
             canvasVoiceRecorder.SetActive(true); // shows the button help text
             isVoiceRecorderOn = true; // switches the bool
         }
@@ -100,6 +85,7 @@ public class UIManager : MonoBehaviour
     {
         if (isNewspaperOn == false)
         {
+            HideOtherText();
             canvasNewspaper.SetActive(true); // shows the button help text
             isNewspaperOn = true; // switches the bool
         }
@@ -114,6 +100,7 @@ public class UIManager : MonoBehaviour
     {
         if (isBossOn == false)
         {
+            HideOtherText();
             canvasBoss.SetActive(true); // shows the button help text
             isBossOn = true; // switches the bool
         }
@@ -122,5 +109,20 @@ public class UIManager : MonoBehaviour
             canvasBoss.SetActive(false); // hides the button help text
             isBossOn = false;
         }
+    }
+
+    public void HideOtherText()
+    {
+        canvasBigDaddy.SetActive(false);
+        canvasPlasmidStand.SetActive(false);
+        canvasVoiceRecorder.SetActive(false);
+        canvasNewspaper.SetActive(false);
+        canvasBoss.SetActive(false);
+
+        isBigDaddyOn = false;
+        isPlasmidStandOn = false;
+        isVoiceRecorderOn = false;
+        isNewspaperOn = false;
+        isBossOn = false;
     }
 }
